@@ -61,6 +61,7 @@ nav button:hover {
 
 .services-container {
     display: flex;
+    justify-content: center;
 }
 
 .service {
@@ -73,4 +74,20 @@ nav button:hover {
 .service img {
     display: block;
     border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    height: 250px;
+    background-image: linear-gradient(to right, #000000, #922529,#008C51, #FFFFFF);
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-item {
+    margin: 20px;
 }
