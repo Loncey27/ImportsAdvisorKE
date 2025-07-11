@@ -44,14 +44,13 @@ nav button:hover {
     background-color: #922529;
     cursor: pointer;
 }
-
+/* body styling */
 .cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-image: linear-gradient(to right, #000000, #922529,#008C51, #FFFFFF);
     color: white;
-    height: 320px;
 }
 
 .card {
@@ -60,7 +59,8 @@ nav button:hover {
 }
 
 .services-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
     justify-content: center;
 }
 
@@ -75,7 +75,19 @@ nav button:hover {
     display: block;
     border-radius: 50%;
 }
+/* aboutUs */
+.aboutus-card {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
 
+.aboutus-card h2 {
+    text-align: center;
+}
+
+/* footer stying */
 footer {
     display: flex;
     flex: wrap;
