@@ -31,6 +31,9 @@ nav a:hover {
     width: 90px;
 }
 
+nav a::after {
+    color: black;
+}
 nav button {
     width: 100px;
     height: 35px;
@@ -85,6 +88,26 @@ nav button:hover {
 
 .aboutus-card h2 {
     text-align: center;
+}
+
+/* solutions styling */
+.tax-document-check {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.tax-check {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.forex-converter {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* footer stying */
